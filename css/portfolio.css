@@ -1,0 +1,37 @@
+/* Portfolio Styles */
+.portfolio-header {
+    background: linear-gradient(rgba(14, 30, 58, 0.8), rgba(14, 30, 58, 0.8)), url('../assets/images/construction_hero_bg_1769448150344.png');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 100px;
+}
+
+.filter-btns {
+    margin-bottom: 50px;
+}
+
+.filter-btn {
+    padding: 10px 25px;
+    background: var(--white);
+    border: 1px solid var(--steel-grey);
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 600;
+    transition: var(--transition-base);
+    cursor: pointer;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.project-item {
+    transition: var(--transition-base);
+}
+
+.project-item.hide {
+    display: none;
+}
